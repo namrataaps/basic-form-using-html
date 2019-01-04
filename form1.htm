@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body style="background-color:lightgrey">
+<h2 style="text-align:center">Form</h2>
+<form>
+<span>Name</span>
+<input type="text"placeholder="Enter name"></input>
+<br>
+<br>
+
+
+<span>Roll No</span>
+<input type="number"placeholder="Roll no." size="7"></input>
+<br>
+<br>
+
+<span>Gender</span>
+<br>
+<input type="radio" name="gender" value="male">Male<br>
+<input type="radio" name="gender" value="female">Female<br>
+<input type="radio" name="gender" value="other">Other<br>
+
+<br>
+
+
+<span>Course</span>
+<select>
+   <option value="Other"></option>
+   <option value="Engineering">Engineering</option>
+   <option value="B.Sc">B.Sc</option>
+   <option value="B.Comm">B.Comm</option>
+   
+</select>
+<br>
+<br>
+
+<fieldset>
+<legend>Languages known</legend>
+<div>
+   <input type="checkbox" id="c++" name="interest" value="c++">
+   <label for="c++">c++</label>
+</div>
+<div>
+   <input type="checkbox" id="c" name="interest" value="c">
+   <label for="c">c</label>
+</div>
+<div>
+   <input type="checkbox" id="c#" name="interest" value="c#">
+   <label for="c#">c#</label>
+</div>
+</fieldset>
+
+
+<br>
+<label for="userPassword">Password</label>
+<input id ="userPassword" type="password" >
+
+<br><br>
+<button type="button" onclick="alert('Form Submitted')">submit</button>
+
+
+</form>
+</body>
+
+</html>
